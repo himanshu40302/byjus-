@@ -97,7 +97,7 @@
     margin-top: 50px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 }
 .container .footer .new{
     margin-top: 20px;
@@ -122,20 +122,17 @@
 .footer .name h5{
 
    
-   margin: 0 25px;
-   font-weight: 900;
-   font-size: 8px;
-   text-shadow: 2px 2px lavender;
+font-size: 15px;
+margin:8 15px;
 }
-
-
-.Name h5{
+.footer .name h6{
 
    
-    margin: 30 20px;
-    font-weight: 900;
-    font-size: 17px;
- }
+    font-size: 9px;
+    margin: 0 20px;
+    }
+
+
  .container p{
     margin-top: 50px;
  }
