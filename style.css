@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 380px;
+    height: 680px;
+    border: 20px solid rgb(233, 227, 227);
+    margin: 0 auto;
+}
+    
+.sub-container{
+    border: 10px solid purple;
+    width: 362px;
+    height: 662px;
+    margin: 0 auto;
+   
+}
+.sub2container{
+    border: 2px solid yellow;
+    width: 350px;
+    height: 658px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.container .image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sub2container img{
+    height: 120px;
+    width: 150px;
+}
+
+.container .image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.container .certificate{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .certificate h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.container .certificate h3{
+    font-size: 15px;
+    padding: 2px;
+    font-family: 'Oswald', sans-serif;
+    background-color: purple;
+    color: rgb(244, 242, 239);
+
+}
+
+.container .certificate .text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(165, 11, 247);
+    padding: 2px;
+    text-decoration: underline 2px solid rgb(10, 10, 10);
+
+}
+.text2 h2{
+    font-size: 18px;
+    text-shadow: 2px 2px lightcyan;
+}
+.text2 .award{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.container .certificate .text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 10px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .footer{
+    margin-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.container .footer .new{
+    margin-top: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container .footer h1{
+    font-size: 20px;
+}
+.footer .name{
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .name h5{
+
+   
+   margin: 0 25px;
+   font-weight: 900;
+   font-size: 17px;
+   text-shadow: 2px 2px lavender;
+}
+
+
+.Name h5{
+
+   
+    margin: 30 20px;
+    font-weight: 900;
+    font-size: 17px;
+ }
+ .container p{
+    margin-top: 50px;
+ }
+ 
